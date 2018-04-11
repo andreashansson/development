@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Stylesheets -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <!-- Javascript -->
+    <script src="/js/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="/js/angular.js" type="text/javascript"></script>
+    <script src="/js/app.js" type="text/javascript"></script>
+    <script src="/js/controller.js" type="text/javascript"></script>
+    <script src="/js/script.js" type="text/javascript"></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+    <div id="clock"></div>
+
+    <div ng-app="app">
+
+      <div ng-controller="mainController">
+
+        <div class="progress-box">
+          <h3>Response från http://www.ombord.info/api/jsonp/user</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{procent}}%;">
+            <span class="sr-only">60% Complete</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-box">
+          <h3>Fake på timer</h3>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{procent2}}%;">
+            <span class="sr-only">60% Complete</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

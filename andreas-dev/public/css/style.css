@@ -1,0 +1,42 @@
+.show - button, .hide - button {
+    background: url("/static/images/menu1.jpg");
+    background - repeat: no - repeat;
+    background - size: contain;
+    cursor: pointer;
+    margin - top: 10 px;
+    width: 50 px;
+    height: 50 px;
+  }
+
+  .show - button: hover, .hide - button: hover {
+    background: url("/static/images/menu2.jpg");
+    background - repeat: no - repeat;
+    background - size: contain;
+  }
+
+  .menu {
+    border: 1 px solid black;
+    height: 200 px;
+  }
+  .menu ul {
+    list - style - type: none;
+    padding - left: 0 px;
+  }
+
+@media(min - width: 768 px) {
+  .menu ul li {
+    display: inline;
+  }
+  .show - button {
+    display: none;
+  }
+}
+
+@media(max - width: 767 px) {
+  .menu {
+    display: none;
+  }
+  .hide - button {
+    display: none;
+  }
+}

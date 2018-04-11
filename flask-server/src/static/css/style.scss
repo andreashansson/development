@@ -1,0 +1,84 @@
+.map-container-container {
+  border-top: 3.5px solid #FFFFFF;
+  position: relative;
+  .map-overlay {
+    padding: 0.5em;
+
+    @media (min-width: $min-desktop-width) {
+      position: absolute;
+      background-color: white;
+      z-index: 1;
+      top: 1em;
+      left: 1em;
+      border-radius: 0.5em;
+      box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.125);
+    }
+
+    @media (max-width: $max-mobile-width) {
+      position: absolute;
+      background-color: white;
+      z-index: 1;
+      top: 1em;
+      left: 1em;
+      border-radius: 0.5em;
+      box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.125);
+    }
+
+    .speed-meter {
+      position: relative;
+      display: inline-block;
+      margin: 0.5em;
+      width: 8em;
+      height: 8em;
+      background-color: $red;
+      border-radius: 50%;
+      vertical-align: bottom;
+      @media (max-width: $max-mobile-width) {
+        font-size: 0.75em;
+      }
+
+      .speed-pointer {
+        transition: transform 0.5s;
+        width: 100%;
+      }
+
+      .speed-label {
+        background-color: white;
+        position: absolute;
+        height: 2em;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0.25em 0;
+
+        .speed-kmph {
+          display: block;
+          font-size: 1.6em;
+          font-family: "Alarm Clock", monospace;
+        }
+        .speed-unit {
+          display: block;
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+
+  .index-map {
+    @media (max-width: $max-mobile-width) {
+      height: 16.5em;
+    }
+    @media (min-width: $min-desktop-width) {
+      height: 16.5em;
+    }
+  }
+
+  .geolocation-map {
+    @media (max-width: $max-mobile-width) {
+      height: 20em;
+    }
+    @media (min-width: $min-desktop-width) {
+      height: 40em;
+    }
+  }
+}

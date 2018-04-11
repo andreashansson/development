@@ -1,0 +1,45 @@
+
+{
+  "customer_name": "Internal",
+  "customer_id": 2,
+  "title": "Working",
+  "button_bgcolor": "#FFFFFF",
+  "button_fgcolor": "#FFFFFF",
+  "bgcolor": "#0083C7",
+  "fgcolor": "#FFFFFF",
+  "bgcolor2": "#FFFFFF",
+  "fgcolor2": "#000000",
+  "linkcolor": "#FFFFFF",
+  "linkcolor2": "#000000",
+  "powered_by_logo": true,
+  "dropdown": false,
+  "info_section": false,
+  "wide_sections": false,
+  "link_buttons": false,
+  "banner_image": false,
+  "extra_images": false,
+  "languages": {"en": "English"},
+  "default_language": "en",
+  "connectivity": false,
+  "connected_devices": false,
+  "map": false
+}
+
+{
+  "linkcolor": "#FFFFFF",
+  "connectivity": true,
+  "bgcolor2": "#FFFFFF",
+  "default_language": "en",
+  "customer_name": "Internal",
+  "powered_by_logo": true,
+  "fgcolor": "#FFFFFF",
+  "languages": {"fr": "French", "se": "Swedish", "en": "English"},
+  "title": "Hasse",
+  "connected_devices": false,
+  "fgcolor2": "#242424",
+  "map": false,
+  "bgcolor": "#0083C7",
+  "linkcolor2":
+  "#242424",
+  "customer_id": 2
+}

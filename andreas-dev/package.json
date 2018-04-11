@@ -1,0 +1,24 @@
+{
+  "name": "andreas-dev",
+  "version": "1.0.0",
+  "description": "Learning",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://andreashansson@bitbucket.org/andreashansson/andreas-dev.git"
+  },
+  "author": "Andreas Hansson",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/andreashansson/andreas-dev#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gh-pages": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.container {
+  width: 25%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+
+}
+
+select {
+  width: 45%;
+  border: none;
+}
+
+.background {
+  background-color: white;
+}
+
+input[type=color] {
+  width: 50%;
+  height: 100px;
+}
+
+.color {
+  width: 48%;
+  display: inline-block;
+}
+
+.langBox {
+  display: inline-block;
+  margin: 5px;
+  width: 80px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 20px;
+  color: black;
+}
+
+iframe {
+  width: 64%;
+  height: 70%;
+  display: inline-block;
+}

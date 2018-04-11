@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block css %}
+  <link href="/static/css/style.css" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block content %}
+
+  <div class="header">
+    <h1>{{ header }}</h1>
+  </div>
+
+  <div class="map-container-container">
+      <div class="map-overlay">
+          <div class="speed-meter">
+              <span class="speed-label">
+                  <span class="speed-kmph">230</span>
+                  <span class="speed-unit">km/h</span>
+              </span>
+              <img class="speed-pointer" src="/images/speed-meter/pointer.svg" />
+          </div>
+      </div>
+      <div id="map-container" class="index-map {{ 'user-online' if map == 'online' else '' }}"></div>
+  </div>
+
+{% endblock %}
