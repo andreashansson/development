@@ -1,0 +1,21 @@
+.grid-test {
+  display: grid;
+  grid-template: "left middle right" auto / 1fr auto 1fr;
+}
+
+.right-container {
+  margin-left: auto;
+}
+
+.left {
+  grid-area: left;
+}
+
+.middle {
+  grid-area: middle;
+}
+
+.right {
+  grid-area: right;
+  margin-left: auto;
+}
